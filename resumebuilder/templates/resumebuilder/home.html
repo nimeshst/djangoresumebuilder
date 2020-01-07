@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="container mt-5 pt-4">
+    <main class="col-12 col-md-12">
+        
+        <h1 class="bd-title">Create your resumes with us!</h1>
+        <p class="bd-lead mt-3">
+
+          <ul>
+            <li>Effortless crafting</li>
+            <li>Select a template from our library</li>
+            <li>Land your dream job with the perfect resume employers are looking for!</li>
+            <li>Download your resume, print it out and get it ready to send!</li>
+          </ul>
+        </p>
+        <a href="{% url 'resumebuilder:UserDetails' %}">
+        <button type="button" class="btn btn-primary btn-lg ml-5 mt-2">Create My Resume</button>
+        </a>
+    </main>
+</div>
+{% endblock %}

@@ -1,0 +1,14 @@
+The Aim of this assignment is to inspect and learn your coding practices as well as proficiency in
+Django and DRF(Django Rest Framework).
+1. Make a website using Django/DRF which allows a user to
+○ Select a resume template from few options
+○ Enter his/her details in a form, the fields can be:
+○ Academic Details
+○ Personal Details
+○ Job Experience Details( Prev and Current)
+○ Skills
+Etc.
+2. Submit the above form to download his Resume as a PDF and send the pdf to his email
+too.
+3. Please note, when the user submits the above form, all the form data must be stored in
+SQLite database.
